@@ -1,12 +1,12 @@
-package scripts;
+package com.apd.inteliserve.sanity;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
+import com.apd.inteliserve.general.BaseTest;
 import com.relevantcodes.extentreports.LogStatus;
-import generics.BaseClass;
 
-public class Home extends BaseClass{
+public class Home extends BaseTest{
 
 	@Test
 	public void homePageTesting() throws InterruptedException {
@@ -20,6 +20,6 @@ public class Home extends BaseClass{
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//android.widget.Button[@text='Send message']")).click();
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("//android.widget.RadioButton[@text='']")).click();
+		driver.findElement(By.xpath("//android.widget.RadioButton[@text='No']")).click();
 	}
 }

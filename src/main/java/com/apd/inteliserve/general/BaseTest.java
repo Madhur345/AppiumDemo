@@ -1,4 +1,5 @@
-package generics;
+package com.apd.inteliserve.general;
+
 import java.io.IOException;
 import java.net.MalformedURLException;
 
@@ -15,7 +16,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 
-public class BaseClass extends Lib {
+public class BaseTest extends Lib {
 	public static ExtentReports extent;
 	public static ExtentTest extentTest;
 

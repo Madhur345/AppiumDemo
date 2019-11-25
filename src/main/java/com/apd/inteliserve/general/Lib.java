@@ -1,4 +1,5 @@
-package generics;
+package com.apd.inteliserve.general;
+
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -56,4 +57,3 @@ public  AppiumDriver<WebElement> driver;
 		return screenShotPath;
 	}
 }
-

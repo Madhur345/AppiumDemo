@@ -1,12 +1,12 @@
-package scripts;
+package com.apd.inteliserve.sanity;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
+import com.apd.inteliserve.general.BaseTest;
 import com.relevantcodes.extentreports.LogStatus;
-import generics.BaseClass;
 
-public class CreateTicket extends BaseClass {
+public class CreateTicket extends BaseTest {
 	
 	@Test
 	public void createTicket() throws InterruptedException {
